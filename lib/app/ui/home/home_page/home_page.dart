@@ -40,6 +40,7 @@ class _HomePageState extends State<HomePage> {
       title: Text(AppLocalizations.of(context)!.pageHomeTitle),
       pinned: true,
       flexibleSpace: FlexibleSpaceBar(
+        collapseMode: CollapseMode.pin,
         background: PromotionBanner(),
       ),
       expandedHeight: 425,
